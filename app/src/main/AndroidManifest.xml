@@ -13,6 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Alert_When_Arrived">
+        <service
+            android:name=".service.LocationService"
+            android:enabled="true"
+            android:exported="true"/>
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -37,5 +41,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
